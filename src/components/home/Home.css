@@ -1,0 +1,15 @@
+.Home {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin: 25rem;
+}
+
+.Home h1 {
+    color: darkcyan;
+}
+
+.Home Link {
+    color: white
+}
