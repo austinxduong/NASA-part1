@@ -1,6 +1,7 @@
 import React from 'react';
 import Planet from './Planets';
 import { Link } from 'react-router-dom';
+import { usePlanets } from '../state/planet';
 
 const PlanetsList = () => {
   const { planets, loading } = usePlanets();
