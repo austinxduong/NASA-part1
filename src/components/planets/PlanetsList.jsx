@@ -5,6 +5,7 @@ import { usePlanets } from '../state/planet';
 
 const PlanetsList = () => {
   const { planets, loading } = usePlanets();
+  if(loading) return <h1>one moment please ...</h1>;
 
   const planetElements = planets.map(planet => (
     <li key={planet.id}>
@@ -14,8 +15,6 @@ const PlanetsList = () => {
     </li>
 
   ));
-
-  if(loading) return <h1>En Route...</h1>;
   return (
     <section className={StyleSheet.PlanetsList}>
       <h1> All Planets </h1>
