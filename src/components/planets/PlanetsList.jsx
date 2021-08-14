@@ -2,6 +2,7 @@ import React from 'react';
 import Planet from './Planets';
 import { Link } from 'react-router-dom';
 import { usePlanets } from '../state/planet';
+import styles from './PlanetsList.css';
 
 const PlanetsList = () => {
   const { planets, loading } = usePlanets();
@@ -16,7 +17,7 @@ const PlanetsList = () => {
 
   ));
   return (
-    <section className={StyleSheet.PlanetsList}>
+    <section className={styles.PlanetsList}>
       <h1> All Planets </h1>
       <ul>{planetElements}</ul>
     </section>
