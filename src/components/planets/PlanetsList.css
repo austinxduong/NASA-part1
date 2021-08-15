@@ -18,6 +18,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    list-style:lower-greek;
+}
+
+.PlanetsList li {
+padding: .5rem;
+text-align: center;
 }
 
 
