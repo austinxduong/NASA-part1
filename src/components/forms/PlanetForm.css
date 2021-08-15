@@ -1,0 +1,21 @@
+.PlanetForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.PlanetForm{
+    text-align: center;
+    padding: 5rem;  
+}
+
+.PlanetForm label{
+    margin: .8rem;
+    display:grid;
+    /* width: 20vw auto; */
+}
+
+.PlanetForm label input {
+    margin: .3rem;
+    border-radius: 2.5px;
+    background-color: lightgoldenrodyellow;
+}

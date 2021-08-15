@@ -15,6 +15,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="name"
+            placeholder="whats the name of your planet?"
             value={name}
             onChange={onChange}
           />
@@ -25,6 +26,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="moons"
+            placeholder="how many moons does it have?"
             value={moons}
             onChange={onChange}
           />
@@ -35,6 +37,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="image"
+            placeholder="copy & paste external link of photo here!"
             value={image}
             onChange={onChange}
           />
@@ -45,6 +48,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="namesake"
+            placeholder="what's the planet nickname? "
             value={namesake}
             onChange={onChange}
           />
@@ -55,6 +59,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="atmosphere"
+            placeholder="what does it feel like living on this planet?"
             value={atmosphere}
             onChange={onChange}
           />
@@ -65,13 +70,14 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <input
             required
             name="planetType"
+            placeholder="whats the planet out made of?"
             value={planetType}
             onChange={onChange}
           />
         </label>
 
         <div>
-          <button> Add + </button>
+          <button> + Add  </button>
         </div>
       </form>
       <Link to="/planets">  🔙  Go Back</Link>
