@@ -8,8 +8,8 @@ export const fetchPlanets = async () => {
 
 export const fetchPlanet = async (id) => {
   const res = await fetch(`https://whispering-citadel-46770.herokuapp.com/api/v1/planets/${id}`);
-  const json = await res.json();
+  const planet = await res.json();
   
-  return json;
+  return planet;
 };
 

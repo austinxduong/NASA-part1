@@ -18,16 +18,13 @@ export const usePlanets = () => {
 
 export const usePlanet = (id) => {
   const [planet, setPlanet] = useState({});
-  const [loading, setLoading] = useState(false);
+
 
   useEffect(() => {
-    setLoading(true);
-    fetchPlanet(id)
-      .then(setPlanet)
-      .then(() => setLoading(false));
+    fetchPlanet(id).then(setPlanet);
   }, [id]);
 
-  return { loading, planet };
+  return planet;
 };
 
 

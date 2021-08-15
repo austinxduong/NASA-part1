@@ -8,7 +8,6 @@ const PlanetDetails = () => {
   const { id } = useParams();
   const planet = usePlanet(id);
 
-  if(!planet) return <h1>one moment please...</h1>;
   return (
     <figure className={styles.PlanetDetails}>   
       <h1>{planet.name}</h1>
