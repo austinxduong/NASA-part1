@@ -3,6 +3,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../home/Home';
 import PlanetsList from '../planets/PlanetsList';
+import PlanetDetails from '../details/PlanetsDetails';
 
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/planets" component={PlanetsList} />
+        <Route exacct path="/planets/:id" component={PlanetDetails} />
       </Switch>
     </>
   );
