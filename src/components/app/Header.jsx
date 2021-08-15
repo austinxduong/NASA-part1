@@ -6,7 +6,8 @@ const Header = () => {
   return <header className={styles.Header}>
     <nav>
       <NavLink to ="/">🏠 Home </NavLink>
-      <NavLink to="/planets">   🪐  All Planets</NavLink>
+      <NavLink to="/planets">   🪐  All Planets </NavLink>
+      <NavLink to="/planets/add"> ➕  Add Planet</NavLink>
     </nav>
   </header>;
 
