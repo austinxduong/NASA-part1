@@ -4,3 +4,20 @@
     object-fit: cover;
     border-radius: 2rem;
 }
+
+.PlanetsList {  
+    color: darkcyan;
+}
+
+.PlanetsList h1 {
+    text-align: center;
+
+}
+
+.PlanetsList ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
