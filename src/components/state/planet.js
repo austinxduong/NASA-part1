@@ -27,7 +27,7 @@ export const usePlanet = (id) => {
       .then(() => setLoading(false));
   }, [id]);
 
-  return { loading, planet}
+  return { loading, planet };
 };
 
 

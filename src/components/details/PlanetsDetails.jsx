@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router';
 import { usePlanet } from '../state/planet';
 import styles from './PlanetDetails.css';
+import { Link } from 'react-router-dom';
 
 const PlanetDetails = () => {
   const { id } = useParams();
@@ -18,6 +19,9 @@ const PlanetDetails = () => {
         <p> Atmosphere: {planet.atmosphere}</p>
         <p> Planet type: {planet.planetType}</p>
       </figcaption>
+      <nav>
+        <Link to="/planets"> 🔙 Go Back </Link>
+      </nav>
     </figure>
   );
 };

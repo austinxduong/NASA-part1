@@ -12,7 +12,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/planets" component={PlanetsList} />
-        <Route exacct path="/planets/:id" component={PlanetDetails} />
+        <Route exact path="/planets/:id" component={PlanetDetails} />
       </Switch>
     </>
   );

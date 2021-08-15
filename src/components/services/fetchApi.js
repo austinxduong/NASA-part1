@@ -12,3 +12,4 @@ export const fetchPlanet = async (id) => {
   
   return json;
 };
+
