@@ -5,6 +5,7 @@ import Home from '../home/Home';
 import PlanetsList from '../planets/PlanetsList';
 import PlanetDetails from '../details/PlanetsDetails';
 import Header from './Header';
+import AddPlanet from '../forms/AddPlanet';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/planets" component={PlanetsList} />
         <Route exact path="/planets/:id" component={PlanetDetails} />
+        <Route exact path="/planets/add" component={AddPlanet} />
       </Switch>
     </>
   );
