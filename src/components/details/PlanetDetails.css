@@ -1,3 +1,11 @@
-.ToppingDetails {
+.PlanetDetails {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.PlanetDetails img {
+    width: 40rem;
 }
