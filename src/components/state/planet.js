@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchPlanets } from '../services/fetchApi';
+import { fetchPlanet, fetchPlanets } from '../services/fetchApi';
 
 
 export const usePlanets = () => {
@@ -14,6 +14,20 @@ export const usePlanets = () => {
   }, []);
 
   return { loading, planets };
+};
+
+export const usePlanet = (id) => {
+  const [planet, setPlanet] = useState({});
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    fetchPlanet(id)
+      .then(setPlanet)
+      .then(() => setLoading(false));
+  }, [id]);
+
+  return { loading, planet}
 };
 
 
