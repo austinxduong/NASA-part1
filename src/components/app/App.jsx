@@ -23,3 +23,4 @@ export default function App() {
 }
 
 // after wiring in very first component, dont forget to go back, and adjust index.js.
+// the addplanet component does not route to a form. it routes to an empty details page. why?
