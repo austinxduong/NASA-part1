@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import { usePlanet } from '../state/planet';
+import styles from './PlanetDetails.css';
 
 const PlanetDetails = () => {
   const { id } = useParams();
@@ -8,7 +9,7 @@ const PlanetDetails = () => {
 
   if(!planet) return <h1>one moment please...</h1>;
   return (
-    <figure>   
+    <figure className={styles.PlanetDetails}>   
       <h1>{planet.name}</h1>
       <img src={planet.image} alt={planet.name} />
       <figcaption>
