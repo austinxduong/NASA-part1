@@ -19,7 +19,7 @@ const PlanetDetails = () => {
         <p> Planet type: {planet.planetType}</p>
       </figcaption>
       <nav>
-        <Link to="/planets"> 🔙 Go Back </Link>
+        <Link to="/planets"> 🔙  Go Back </Link>
       </nav>
     </figure>
   );

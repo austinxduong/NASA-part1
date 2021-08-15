@@ -9,3 +9,11 @@
 .PlanetDetails img {
     width: 40rem;
 }
+
+.PlanetDetails p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.PlanetDetails h1 {
+    color: darkcyan;
+}
