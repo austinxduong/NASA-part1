@@ -8,10 +8,15 @@
 
 .PlanetDetails img {
     width: 40rem;
+    opacity: 93%;
 }
 
 .PlanetDetails p {
     font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: white;
+    opacity: 76%;
+    padding: 10px;
 }
 
 .PlanetDetails h1 {

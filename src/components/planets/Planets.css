@@ -1,0 +1,11 @@
+.Planets {
+    list-style: none;
+    padding: 0px;
+    opacity: 88%;
+    display: grid;
+
+}
+
+.Planets h2 {
+    background-color: white;
+}
