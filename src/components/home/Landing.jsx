@@ -6,7 +6,11 @@ const Landing = () => {
   return (
     <section className={styles.Landing}>
       <div className={styles.VideoContainer}>
-        <video playsinline muted loop autoPlay src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1628986566/galaxy_r3apjr.mp4"
+        <video playsinline 
+          muted 
+          loop 
+          autoPlay 
+          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1628986566/galaxy_r3apjr.mp4"
           style={{
             position:'absolute',
             width: '100%',
