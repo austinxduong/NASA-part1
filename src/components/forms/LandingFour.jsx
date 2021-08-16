@@ -10,7 +10,7 @@ const LandingFour = () => {
           muted 
           loop 
           autoPlay 
-          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629103656/fav5.mp4"
+          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629099670/fav4.mp4"
           style={{
             position:'fixed',
             width: '100%',

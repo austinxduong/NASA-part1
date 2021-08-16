@@ -1,7 +1,7 @@
 .Header {
     border-bottom: 1px solid lightgray;
     background-color: white;
-    opacity: 70%;
+    opacity: 72%;
 
 }
 
@@ -11,6 +11,8 @@
     list-style-type: lower-greek;
 }
 
-.active {
+
+/* .active {
     color:white
-}
+} */
+/*not sure why the above doesn work, i used it before and it changed color on a clicked link...??*/

@@ -4,6 +4,7 @@
     justify-content: center;
     display: flex;
     margin: 25vw;
+    padding: 2rem;
 }
 
 .Home h1 {
@@ -11,5 +12,5 @@
 }
 
 .Home Link {
-    color: white
+    color: white;
 }
