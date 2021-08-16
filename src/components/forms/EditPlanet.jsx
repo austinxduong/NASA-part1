@@ -5,6 +5,7 @@ import { usePlanet } from '../state/planet';
 import PlanetForm from './PlanetForm';
 import styles from './EditPlanet.css';
 import { updatePlanet } from '../services/planetCRUD';
+import LandingFour from './LandingFour';
 
 const EditPlanets = () => {
   const { id } = useParams();
@@ -33,6 +34,7 @@ const EditPlanets = () => {
   if(loading && !newPlanet) return <h1>one moment please...</h1>;
   return (
     <section className={styles.EditPlanets}>
+      <LandingFour />
       <h1> 🛠️  Edit This Planet</h1>
       <PlanetForm {...newPlanet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>

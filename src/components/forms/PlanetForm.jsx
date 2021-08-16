@@ -80,7 +80,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
           <button> + Add  </button>
         </div>
       </form>
-      <Link to="/planets">  🔙  Go Back</Link>
+      <Link to="/planets"><button>  🔙  Go Back</button></Link>
     </section>
   );
 };
