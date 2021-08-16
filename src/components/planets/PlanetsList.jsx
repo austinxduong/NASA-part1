@@ -3,7 +3,7 @@ import Planet from './Planets';
 import { Link } from 'react-router-dom';
 import { usePlanets } from '../state/planet';
 import styles from './PlanetsList.css';
-import LandingTwo from '../forms/LandingTwo';
+import LandingThree from './LandingThree';
 
 
 const PlanetsList = () => {
@@ -20,7 +20,7 @@ const PlanetsList = () => {
   ));
   return (
     <section className={styles.PlanetsList}>
-      <LandingTwo />
+      <LandingThree />
       <h1> 🪐 All Planets </h1>
       <ul>{planetElements}</ul>
     </section>
