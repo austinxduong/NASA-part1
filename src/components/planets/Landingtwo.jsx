@@ -1,16 +1,16 @@
 /* eslint-disable max-len */
 import React from 'react';
-import styles from './Home.css';
+import styles from '../home/Home.css';
 
-const Landing = () => {
+const LandingTwo = () => {
   return (
-    <section className={styles.Landing}>
+    <section className={styles.Landing2}>
       <div className={styles.VideoContainer}>
         <video playsinline 
           muted 
           loop 
           autoPlay 
-          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1628986566/galaxy_r3apjr.mp4"
+          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629091318/planet.mp4"
           style={{
             position:'absolute',
             width: '100%',
@@ -27,4 +27,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default LandingTwo;
