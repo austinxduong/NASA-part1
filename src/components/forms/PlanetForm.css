@@ -11,6 +11,8 @@
 .PlanetForm label{
     margin: .8rem;
     display:grid;
+    background-color: white;
+    opacity: 88%;
     /* width: 20vw auto; */
 }
 
