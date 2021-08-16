@@ -18,7 +18,7 @@ const PlanetsList = () => {
   ));
   return (
     <section className={styles.PlanetsList}>
-      <h1> All Planets </h1>
+      <h1> 🪐 All Planets </h1>
       <ul>{planetElements}</ul>
     </section>
   );

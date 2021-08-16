@@ -56,7 +56,7 @@ const AddPlanet = () => {
 
   return (
     <section className={styles.AddPlanet}>
-      <h1> Add a Planet! </h1>
+      <h1> ➕ Add a Planet </h1>
       <PlanetForm {...planet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>
   );
