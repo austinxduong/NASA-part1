@@ -23,3 +23,14 @@ export const updatePlanet = async (planet) => {
   return put;
 
 };
+
+export const deletePlanet = async (id) => {
+  const res = await fetch(`https://whispering-citadel-46770.herokuapp.com/api/v1/planets/${id}`, {
+    method: 'DELETE'
+  });
+  const json = await res.json();
+
+  return json;
+
+};
+
