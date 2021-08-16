@@ -12,13 +12,12 @@ const LandingTwo = () => {
           autoPlay 
           src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629091318/planet.mp4"
           style={{
-            position:'absolute',
+            position:'fixed',
             width: '100%',
             left: '50%',
             top: '50%',
-            height: '',
+            height: '100%',
             objectFit: 'cover',
-            overflow: 'hidden',
             transform: 'translate(-50%, -50%)',
             zIndex: '-1',
           }}
