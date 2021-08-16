@@ -10,3 +10,16 @@ export const addPlanet = async (planet) => {
 
   return post;
 };
+
+export const updatePlanet = async (planet) => {
+  const res = await fetch(`https://whispering-citadel-46770.herokuapp.com/api/v1/planets/${planet.id}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(planet)
+  });
+
+  const put = await res.put();
+
+  return put;
+
+};
