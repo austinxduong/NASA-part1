@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { addPlanet } from '../services/planetCRUD';
 import PlanetForm from './PlanetForm';
 import styles from './AddPlanet.css';
+import LandingTwo from './LandingTwo';
 
 const AddPlanet = () => {
   const history = useHistory();
@@ -56,6 +57,7 @@ const AddPlanet = () => {
 
   return (
     <section className={styles.AddPlanet}>
+      <LandingTwo />
       <h1> ➕ Add a Planet </h1>
       <PlanetForm {...planet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>
