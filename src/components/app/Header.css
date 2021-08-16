@@ -1,4 +1,15 @@
+.Header {
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    opacity: 70%;
+
+}
+
 .Header nav {
     margin: 1rem;
     list-style-type: lower-greek;
+}
+
+.active {
+    color:white
 }
