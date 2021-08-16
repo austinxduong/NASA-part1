@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { useParams } from 'react-router';
 import { usePlanet } from '../state/planet';
@@ -19,7 +20,8 @@ const PlanetDetails = () => {
         <p> Planet type: {planet.planetType}</p>
       </figcaption>
       <nav>
-        <Link to="/planets"> 🔙  Go Back </Link>
+        <Link to="/planets"><button>🔙  Go Back </button></Link>
+        <Link to={`/planets/${planet.id}/edit`}><button>🛠️  Edit </button></Link>
       </nav>
     </figure>
   );

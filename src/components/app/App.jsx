@@ -6,6 +6,7 @@ import PlanetsList from '../planets/PlanetsList';
 import PlanetDetails from '../details/PlanetsDetails';
 import Header from './Header';
 import AddPlanet from '../forms/AddPlanet';
+import EditPlanets from '../forms/EditPlanet';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/planets" component={PlanetsList} />
         <Route exact path="/planets/add" component={AddPlanet} />
+        <Route exact path="/planets/:id/edit" component={EditPlanets} />
         <Route exact path="/planets/:id" component={PlanetDetails} />
       </Switch>
     </>
