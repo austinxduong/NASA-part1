@@ -10,8 +10,6 @@
 .Home h1 {
     color: darkcyan;
     position: fixed;
+    margin-bottom: 5rem;
 }
 
-.Home Link {
-    color: white;
-}
