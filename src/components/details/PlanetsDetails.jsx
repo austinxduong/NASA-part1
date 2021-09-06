@@ -25,7 +25,9 @@ const PlanetDetails = () => {
       <nav>
         <Link to="/planets"><button>🔙  Go Back </button></Link>
         <Link to={`/planets/${planet.id}/edit`}><button>🛠️  Edit </button></Link>
-        <button id={id} onClick={((e) => deletePlanet(e.target.id))}>
+        <button id={id} 
+          onClick={((e) => window.confirm('Sure you want to delete?') 
+          && deletePlanet(e.target.id))}>
         ❌ DELETE
         </button>
       </nav>
