@@ -30,7 +30,7 @@ export const deletePlanet = async (id) => {
   });
 
   if(res.status === 200) 
-    alert('This planet is now deleted'); document.location.href = '/planets';
+    alert('This planet is now deleted'); window.location.href = '/planets';
 
 };
 
