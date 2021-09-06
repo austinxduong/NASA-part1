@@ -1,5 +1,6 @@
 .Header {
     border-bottom: 1px solid lightgray;
+    border-radius: 7vw;
     background-color: white;
     opacity: 72%;
 
@@ -8,7 +9,7 @@
 .Header nav {
     margin: 1rem;
     margin-bottom: .4rem;
-    list-style-type: lower-greek;
+    /* list-style-type: lower-greek; */
 }
 
 

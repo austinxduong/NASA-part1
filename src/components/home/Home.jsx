@@ -10,7 +10,11 @@ const Home = () => {
     <main className={styles.Home}>
       <Landing />
       <h1> World 0f Galaxy</h1>
-      <Link to="/planets" exact={true} style={{ color:'#AA9992' }} activeStyle={{ color:'orange' }}> Enter to see ... </Link>
+      <Link to="/planets" 
+        exact={true} 
+        style={{ color:'#AA9992' }} 
+        activeStyle={{ color:'orange' }}> 
+        Enter to see ... </Link>
     </main>
   );
 };

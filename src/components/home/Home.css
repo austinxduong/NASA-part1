@@ -9,7 +9,6 @@
 
 .Home h1 {
     color: darkcyan;
-    position: fixed;
-    margin-bottom: 5rem;
+    white-space: nowrap;
 }
 
