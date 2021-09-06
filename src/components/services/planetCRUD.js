@@ -6,6 +6,9 @@ export const addPlanet = async (planet) => {
     body: JSON.stringify(planet)
   });
 
+  if(res.status === 200) 
+    alert('Planet has been added :D'); window.location.href = '/planets';
+
   const post = await res.post();
 
   return post;

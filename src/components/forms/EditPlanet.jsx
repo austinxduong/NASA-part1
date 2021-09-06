@@ -11,10 +11,10 @@ import LandingFour from './LandingFour';
 const EditPlanets = () => {
   const { id } = useParams();
   const history = useHistory();
-
   const { loading, planet } = usePlanet(id);
-
   const [newPlanet, setNewPlanet] = useState(null);
+
+  if(loading && !newPlanet) return <h1>one moment please...</h1>;
 
   useEffect(() => {
     console.log(loading, planet);
@@ -32,7 +32,6 @@ const EditPlanets = () => {
     history.push(`/planets/${id}`);
   };
 
-  if(loading && !newPlanet) return <h1>one moment please...</h1>;
   return (
     <section className={styles.EditPlanets}>
       <LandingFour />

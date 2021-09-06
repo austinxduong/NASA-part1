@@ -9,8 +9,9 @@
 }
 
 .PlanetForm label{
-    margin: .8rem;
     display:grid;
+    margin: .8rem;
+    border-radius: 3px;
     background-color: white;
     opacity: 88%;
     padding: .2rem;
@@ -19,7 +20,6 @@
 
 .PlanetForm label input {
     margin: .3rem;
-    border-radius: 2.5px;
     background-color: lightgoldenrodyellow;
-    padding: .4rem;
+    padding: .2rem;
 }
