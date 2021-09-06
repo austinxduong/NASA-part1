@@ -77,7 +77,7 @@ const PlanetForm = ({ name, moons, image, namesake, atmosphere, planetType, onCh
         </label>
 
         <div>
-          <button> + Add  </button>
+          <button> 👾 Confirm  </button>
         </div>
       </form>
       <Link to="/planets"><button>  🔙  Go Back</button></Link>
