@@ -10,7 +10,7 @@ const Landing = () => {
           muted 
           loop 
           autoPlay 
-          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629094685/fav.mp4"
+          src="https://nasavideo.s3.us-west-2.amazonaws.com/fav.mp4"
           style={{
             position:'fixed',
             width: '100%',

@@ -10,7 +10,7 @@ const LandingTwo = () => {
           muted 
           loop 
           autoPlay 
-          src="https://res.cloudinary.com/duwtuqr0p/video/upload/v1629091318/planet.mp4"
+          src="https://nasavideo.s3.us-west-2.amazonaws.com/planet.mp4"
           style={{
             position:'fixed',
             width: '100%',
