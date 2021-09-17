@@ -6,7 +6,7 @@ const LandingThree = () => {
   return (
     <section className={styles.Landing3}>
       <div className={styles.VideoContainer3}>
-        <video playsinline 
+        <video playsInline 
           muted 
           loop 
           autoPlay 
