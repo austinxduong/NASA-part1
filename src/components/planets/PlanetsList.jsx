@@ -3,7 +3,7 @@ import Planet from './Planets';
 import { Link } from 'react-router-dom';
 import { usePlanets } from '../state/planet';
 import styles from './PlanetsList.css';
-import LandingThree from './LandingThree';
+import VideoAll from './VideoAllPlanets';
 
 
 const PlanetsList = () => {
@@ -20,7 +20,7 @@ const PlanetsList = () => {
   ));
   return (
     <section className={styles.PlanetsList}>
-      <LandingThree />
+      <VideoAll />
       <h1> 🪐 All Planets </h1>
       <ul>{planetElements}</ul>
     </section>

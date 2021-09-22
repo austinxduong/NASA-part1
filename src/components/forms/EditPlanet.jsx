@@ -6,7 +6,7 @@ import { usePlanet } from '../state/planet';
 import PlanetForm from './PlanetForm';
 import styles from './EditPlanet.css';
 import { updatePlanet } from '../services/planetCRUD';
-import LandingFour from './LandingFour';
+import VideoEdit from './VideoEditPlanet';
 
 const EditPlanets = () => {
   const { id } = useParams();
@@ -34,7 +34,7 @@ const EditPlanets = () => {
 
   return (
     <section className={styles.EditPlanets}>
-      <LandingFour />
+      <VideoEdit />
       <h1> 🛠️  Edit This Planet</h1>
       <PlanetForm {...newPlanet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>

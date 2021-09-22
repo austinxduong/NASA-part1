@@ -5,7 +5,7 @@ import { usePlanet } from '../state/planet';
 import styles from './PlanetDetails.css';
 import { Link } from 'react-router-dom';
 import { deletePlanet } from '../services/planetCRUD.js';
-import LandingTwo from '../forms/LandingTwo';
+import VideoAdd from '../forms/VideoAddPlanet';
 
 const PlanetDetails = () => {
   const { id } = useParams();
@@ -13,7 +13,7 @@ const PlanetDetails = () => {
 
   return (
     <figure className={styles.PlanetDetails}>   
-      <LandingTwo />
+      <VideoAdd />
       <h1>{planet.name}</h1>
       <img src={planet.image} alt={planet.name} />
       <figcaption>
