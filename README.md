@@ -9,4 +9,4 @@
 - Artist: [cottonbro](https://www.pexels.com/@cottonbro)
 
 ## 🍕  [(API) Back-End: Repository](https://github.com/austinxduong/NASA-part2)
-## 🎥  [Back-End: See it Live here](https://whispering-citadel-46770.herokuapp.com/api/v1/planets)
+## 🎥  [(Heroku) Back-End: See it Live here](https://whispering-citadel-46770.herokuapp.com/api/v1/planets)
