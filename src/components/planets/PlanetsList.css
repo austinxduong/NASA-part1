@@ -13,7 +13,7 @@
     text-align: center;
     color: beige;
     white-space: nowrap;
-    -webkit-text-stroke:.3px black;
+    /* -webkit-text-stroke:.3px black; */
     /* -webkit-text-fill-color:darkcyan; */
 
     text-shadow:     
