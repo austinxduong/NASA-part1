@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
 }
 
 .PlanetDetails img {
-    width: 40rem;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 2rem;
+    object-fit: cover;
     opacity: 93%;
+
 }
 
 .PlanetDetails p {

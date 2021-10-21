@@ -11,19 +11,20 @@
 
 .PlanetsList h1 {
     text-align: center;
-
 }
 
 .PlanetsList ul {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
     list-style:none;
+    padding-right: 2.2rem;
 }
 
 .PlanetsList li {
-padding: .5rem;
-text-align: center;
+    display: flex;
+    text-align: center;
 }
+
 
 
