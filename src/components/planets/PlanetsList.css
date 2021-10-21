@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .PlanetsList img {
     height: 20rem;
     width: 20rem;
@@ -31,6 +34,7 @@
 .PlanetsList li {
     display: flex;
     text-align: center;
+    font-family: "Bebas Neue";
 }
 
 
