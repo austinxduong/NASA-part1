@@ -8,7 +8,13 @@
 }
 
 .Home h1 {
-    color: darkcyan;
+    /* color: darkcyan; */
     white-space: nowrap;
+    -webkit-text-stroke:.3px beige;
+    -webkit-text-fill-color:darkcyan;
+
+    text-shadow:    
+        0 0 4px darkviolet ;
+ 
 }
 
