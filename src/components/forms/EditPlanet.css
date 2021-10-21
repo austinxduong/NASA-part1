@@ -1,4 +1,10 @@
 .EditPlanets h1 {
-    color: darkcyan;
     text-align: center;
+    color: beige;
+    white-space: nowrap;
+    -webkit-text-stroke:.3px black;
+    /* -webkit-text-fill-color:darkcyan; */
+
+    text-shadow:     
+    0 0 11px black ;
 }
