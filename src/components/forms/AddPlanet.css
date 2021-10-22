@@ -1,4 +1,5 @@
 .AddPlanet h1{
+    font-family:'Cormorant SC';
     text-align: center;
     color: beige;
     white-space: nowrap;
@@ -6,5 +7,5 @@
     /* -webkit-text-fill-color:darkcyan; */
 
     text-shadow:     
-    0 0 11px black ;
+    0 0 20px beige ;
 }

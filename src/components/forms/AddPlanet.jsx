@@ -58,7 +58,7 @@ const AddPlanet = () => {
   return (
     <section className={styles.AddPlanet}>
       <VideoAdd />
-      <h1> ➕ Add a Planet </h1>
+      <h1> ➕ ADD A PLANET </h1>
       <PlanetForm {...planet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>
   );

@@ -21,7 +21,7 @@ const PlanetsList = () => {
   return (
     <section className={styles.PlanetsList}>
       <VideoAll />
-      <h1> 🪐 All Planets </h1>
+      <h1> 🪐 ALL PLANETS </h1>
       <ul>{planetElements}</ul>
     </section>
   );

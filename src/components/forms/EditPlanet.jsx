@@ -35,7 +35,7 @@ const EditPlanets = () => {
   return (
     <section className={styles.EditPlanets}>
       <VideoEdit />
-      <h1> 🛠️  Edit This Planet</h1>
+      <h1> 🛠️  EDIT THIS PLANET</h1>
       <PlanetForm {...newPlanet} onChange={handleChange} onSubmit={handleSubmit} />
     </section>
   );
