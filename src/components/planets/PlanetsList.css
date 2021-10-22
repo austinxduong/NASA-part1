@@ -32,9 +32,9 @@
 }
 
 .PlanetsList li {
+    font-family: "Bebas Neue";
     display: flex;
     text-align: center;
-    font-family: "Bebas Neue";
 }
 
 
