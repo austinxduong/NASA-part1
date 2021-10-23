@@ -28,7 +28,7 @@ const Header = () => {
         exact={true} 
         style={{ color:'#4E2C5D' }} 
         activeStyle={{ color:'#7da48a' }}> 
-       🕊️ Austi </NavLink>
+       🕊️ AXD </NavLink>
     </nav>
   </header>;
 
