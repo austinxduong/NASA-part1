@@ -22,7 +22,13 @@ const Header = () => {
         exact={true} 
         style={{ color:'#4E2C5D' }} 
         activeStyle={{ color:'#7da48a' }}> 
-      ➕  Add Planet</NavLink>
+      ➕  Add Planet </NavLink>
+
+      <NavLink to="https://www.austinxduong.live/"
+        exact={true} 
+        style={{ color:'#4E2C5D' }} 
+        activeStyle={{ color:'#7da48a' }}> 
+       🕊️ The Artist </NavLink>
     </nav>
   </header>;
 

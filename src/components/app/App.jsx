@@ -7,6 +7,7 @@ import PlanetDetails from '../details/PlanetsDetails';
 import Header from './Header';
 import AddPlanet from '../forms/AddPlanet';
 import EditPlanets from '../forms/EditPlanet';
+// import austi from '';
 
 
 export default function App() {
@@ -19,6 +20,8 @@ export default function App() {
         <Route exact path="/planets/add" component={AddPlanet} />
         <Route exact path="/planets/:id/edit" component={EditPlanets} />
         <Route exact path="/planets/:id" component={PlanetDetails} />
+        <Route exact path="/loophole" component= { window.location = 'https://www.austinxduong.live/'}/>
+
       </Switch>
     </>
   );
