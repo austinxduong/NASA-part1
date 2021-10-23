@@ -22,7 +22,7 @@ const Header = () => {
         exact={true} 
         style={{ color:'#4E2C5D' }} 
         activeStyle={{ color:'#7da48a' }}> 
-      ➕  Add Planet </NavLink>
+      ➕  Add </NavLink>
 
       <NavLink to="/loophole"
         exact={true} 
