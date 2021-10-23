@@ -24,7 +24,7 @@ const Header = () => {
         activeStyle={{ color:'#7da48a' }}> 
       ➕  Add Planet </NavLink>
 
-      <NavLink to="https://www.austinxduong.live/"
+      <NavLink to="/loophole"
         exact={true} 
         style={{ color:'#4E2C5D' }} 
         activeStyle={{ color:'#7da48a' }}> 

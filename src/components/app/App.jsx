@@ -20,7 +20,7 @@ export default function App() {
         <Route exact path="/planets/add" component={AddPlanet} />
         <Route exact path="/planets/:id/edit" component={EditPlanets} />
         <Route exact path="/planets/:id" component={PlanetDetails} />
-        <Route exact path="/loophole" component= { window.location = 'https://www.austinxduong.live/'}/>
+        <Route exact path="/loophole" component={() => { window.location = 'https://www.austinxduong.live/';} }/>
 
       </Switch>
     </>
