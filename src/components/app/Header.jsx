@@ -28,7 +28,7 @@ const Header = () => {
         exact={true} 
         style={{ color:'#4E2C5D' }} 
         activeStyle={{ color:'#7da48a' }}> 
-       🕊️ AXD </NavLink>
+       🕊️  The Artist </NavLink>
     </nav>
   </header>;
 
