@@ -10,7 +10,7 @@ const VideoAdd = () => {
           muted 
           loop 
           autoPlay 
-          src="/addPlanet.mp4"
+          src="https://nasavideo.s3.us-west-2.amazonaws.com/planet.mp4"
           style={{
             position:'fixed',
             width: '100%',
