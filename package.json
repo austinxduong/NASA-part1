@@ -2,7 +2,7 @@
   "name": "NASA-part1",
   "homepage": "https://nasa-galaxy.netlify.app/",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full-Stack Application built by austi",
   "main": "dist/index.js",
   "jest": {
     "setupFilesAfterEnv": [

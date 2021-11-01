@@ -1,6 +1,7 @@
 {
     "short_name": "austinxduong",
     "name": "austinxduong",
+    "description": "full-stack app built by austi 🍕",
     "icons": [
         {
             "src": "/meta.png",
@@ -18,7 +19,7 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "src/index.html",
+    "start_url": "/",
     "background_color": "#008080",
     "scope": "/",
     "display": "standalone",
