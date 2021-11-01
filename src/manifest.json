@@ -3,26 +3,25 @@
     "name": "austinxduong",
     "icons": [
         {
-            "src": "public/meta.png",
+            "src": "/meta.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "public/meta.png",
+            "src": "/meta.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "public/meta.png",
+            "src": "/meta.png",
             "type": "image/png",
             "sizes": "512x512"
         }
     ],
     "start_url": "/index.html",
-    "background_color": "008080",
+    "background_color": "#008080",
     "display": "standalone",
-    "scope": "/app/",
-    "theme_color": "008080",
+    "theme_color": "#008080",
     "orientation": "portrait-primary"
 }
 
