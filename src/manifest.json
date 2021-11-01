@@ -18,9 +18,11 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "./index.html",
+    "start_url": "/index.html",
     "background_color": "008080",
     "display": "standalone",
     "scope": "/app/",
-    "theme_color": "008080"
+    "theme_color": "008080",
+    "orientation": "portrait-primary"
 }
+
