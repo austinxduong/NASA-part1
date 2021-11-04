@@ -17,7 +17,7 @@ const env = Object.entries({
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bundle.[hash].js',
+    filename: '[name].js',
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
   },
@@ -26,7 +26,7 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
-    new HtmlPlugin({ template: './src/index.html' }),
+    new HtmlPlugin({ template: 'public/index.html' }),
     new CleanWebpackPlugin(),
     new webpack.EnvironmentPlugin(env),
     new CopyPlugin({
