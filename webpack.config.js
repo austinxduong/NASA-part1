@@ -17,7 +17,7 @@ const env = Object.entries({
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: '[bundle.[hash].js]',
+    filename: 'bubble.js',
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
   },
