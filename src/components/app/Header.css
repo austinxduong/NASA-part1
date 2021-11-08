@@ -1,7 +1,11 @@
+a{
+    text-decoration:none;
+   }
+
 .Header {
-    border-bottom: 1px solid lightgray;
     border-radius: 7vw;
-    background-color: white;
+    height: 2vw;
+    background-color:black;
     opacity: 72%;
 
 }

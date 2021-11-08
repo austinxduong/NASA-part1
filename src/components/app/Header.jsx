@@ -8,25 +8,25 @@ const Header = () => {
     <nav>
       <NavLink to ="/" 
         exact={true} 
-        style={{ color:'#4E2C5D' }} 
+        style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}>
         🏠 Home </NavLink>
 
       <NavLink to="/planets" 
         exact={true} 
-        style={{ color:'#4E2C5D' }} 
+        style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}>   
         🪐  All Planets </NavLink>
 
       <NavLink to="/planets/add" 
         exact={true} 
-        style={{ color:'#4E2C5D' }} 
+        style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}> 
       ➕  Add </NavLink>
 
       <NavLink to="/loophole"
         exact={true} 
-        style={{ color:'#4E2C5D' }} 
+        style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}> 
        🕊️  The Artist </NavLink>
     </nav>
