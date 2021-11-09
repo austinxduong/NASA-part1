@@ -10,3 +10,10 @@
 
 ## 🍕  [(API) Back-End: Repository](https://github.com/austinxduong/NASA-part2)
 ## 🎥  [(Heroku) Back-End: See it LIVE here](https://whispering-citadel-46770.herokuapp.com/api/v1/planets)
+
+Front-End Technologies:
+- React
+- CSS/HTML
+- Javascript
+- AWS Amazon S3
+
