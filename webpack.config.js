@@ -17,7 +17,7 @@ const env = Object.entries({
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bubble.js',
+    filename: 'bundle.[hash].js',
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
   },
@@ -26,9 +26,12 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
-    new HtmlPlugin({ template: 'public/index.html' }),
+    new HtmlPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
     new webpack.EnvironmentPlugin(env),
+    new webpack.DefinePlugin({
+      'process.env.NO DE_ENV': JSON.stringify('development')
+    }),
     new CopyPlugin({
       patterns: [{ from: 'public' }],
     }),
