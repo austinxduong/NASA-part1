@@ -1,6 +1,10 @@
-a{
+a {
     text-decoration:none;
    }
+
+.Header nav:hover {
+    text-transform:lowercase;
+}
 
 .Header {
     border-radius: 2rem;
@@ -14,9 +18,3 @@ a{
     margin: 1rem;
     margin-bottom: .4rem;
 }
-
-
-/* .active {
-    color:white
-} */
-/*not sure why the above doesn work, i used it before and it changed color on a clicked link...??*/
