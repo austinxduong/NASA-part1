@@ -30,8 +30,21 @@ const Header = () => {
         activeStyle={{ color:'#7da48a' }}> 
        🕊️  The Artist </NavLink>
     </nav>
+
+    {/* <div className="Header Navi" id="navigation">
+      <a href="/">🏠 Home</a>
+      <a href="/planets">🪐  All Planets </a>
+      <a href="/planets/add"> ➕  Add</a>
+      <a href="/loopshole">🕊️  The Artist</a>
+    </div> */}
+
   </header>;
 
 };
 
 export default Header;
+
+
+{/* <section>
+      <img src="https://github.com/austinxduong.png" alt="github profile pic"></img>
+    </section> */}
