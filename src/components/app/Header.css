@@ -2,7 +2,11 @@ a {
     text-decoration:none;
    }
 
-.Header nav:hover {
+/* .Header[NavLink^="/"] {
+    color:blueviolet
+} */
+
+.Header :hover {
     text-transform:lowercase;
 }
 
@@ -17,4 +21,8 @@ a {
 .Header nav {
     margin: 1rem;
     margin-bottom: .4rem;
+}
+
+.NavLink {
+    color:blueviolet
 }
