@@ -17,19 +17,22 @@ const Header = () => {
         exact={true} 
         style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}>   
-        🪐  All Planets </NavLink>
+        🪐  All Planets 
+      </NavLink>
 
       <NavLink to="/planets/add" 
         exact={true} 
         style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}> 
-      ➕  Add </NavLink>
+      ➕  Add 
+      </NavLink>
 
       <NavLink to="/loophole"
         exact={true} 
         style={{ color:'white' }} 
         activeStyle={{ color:'#7da48a' }}> 
-       🕊️  The Artist </NavLink>
+       🕊️  The Artist 
+      </NavLink>
     </nav>
 
 
