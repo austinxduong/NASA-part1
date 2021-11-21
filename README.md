@@ -13,7 +13,7 @@
 
 Front-End Technologies:
 - React
-- CSS/HTML
 - Javascript
+- CSS/HTML
 - AWS Amazon S3
 
