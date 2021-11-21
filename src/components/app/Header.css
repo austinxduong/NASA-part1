@@ -19,7 +19,8 @@ a .home{
 
 .Header nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 1rem;
     margin-bottom: .4rem;
 }
