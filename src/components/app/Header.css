@@ -2,11 +2,11 @@ a {
     text-decoration:none;
    }
 
-/* .Header[NavLink^="/"] {
-    color:blueviolet
-} */
+a .home{
+    margin: 1000px;
+}
 
-.Header :hover {
+.Header:hover {
     text-transform:lowercase;
 }
 
@@ -15,14 +15,20 @@ a {
     height: 2rem;
     background-color:black;
     opacity: 72%;
-
 }
 
 .Header nav {
+    display: flex;
+    justify-content: space-between;
     margin: 1rem;
     margin-bottom: .4rem;
 }
 
-.NavLink {
-    color:blueviolet
-}
+
+
+
+
+
+
+
+
