@@ -1,3 +1,8 @@
+a:hover {
+    color:violet;
+    font-size: 20px;
+}
+
 .Home {
     align-items: center;
     flex-direction: column;
@@ -17,10 +22,14 @@
     /* -webkit-text-fill-color:darkcyan; */
     text-shadow:     
     0 0 10 30px black ;
-
 } 
 
-a:hover {
-    color:violet;
-    font-size: 20px;
+
+
+/* a enter-link:hover{
+    color:tomato
 }
+
+a .Link .enter-link{
+    font-size: 500px;
+} */

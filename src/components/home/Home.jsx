@@ -11,6 +11,7 @@ const Home = () => {
       <Landing />
       <h1> World 0f Galaxy</h1>
       <Link to="/planets" 
+        id="enter"
         className="enter-link"
         exact={true} 
         style={{ color:'#AA9992' }} 
