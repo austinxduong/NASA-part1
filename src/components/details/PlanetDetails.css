@@ -29,3 +29,9 @@
     text-shadow:     
     0 0 30px beige ;
 }
+
+.PlanetDetails button {
+    display:inline;
+    color: rgb(46, 0, 139);
+    transform-style: preserve-3d;
+  }
