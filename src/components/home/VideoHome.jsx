@@ -10,7 +10,7 @@ const Landing = () => {
           muted 
           loop 
           autoPlay={true}
-          src="public/media/home.mp4"
+          src="/media/home.mp4"
           style={{
             position:'fixed',
             width: '100%',
