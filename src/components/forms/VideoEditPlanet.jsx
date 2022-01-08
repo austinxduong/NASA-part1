@@ -10,7 +10,7 @@ const VideoEdit = () => {
           muted 
           loop 
           autoPlay 
-          src="/public/media/editPlanet.mp4"
+          src="/media/editPlanet.mp4"
           style={{
             position:'fixed',
             width: '100%',

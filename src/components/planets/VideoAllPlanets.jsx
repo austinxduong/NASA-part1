@@ -10,7 +10,7 @@ const VideoAll = () => {
           muted 
           loop 
           autoPlay={true}
-          src="public/media/planets.mp4"
+          src="/media/planets.mp4"
           style={{
             position:'fixed',
             width: '100%',
