@@ -10,7 +10,7 @@ const Landing = () => {
           muted 
           loop 
           autoPlay={true}
-          src="/media/home.mp4"
+          src="https://nasa-front-end.s3.us-west-2.amazonaws.com/home.mp4"
           style={{
             position:'fixed',
             width: '100%',
